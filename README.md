@@ -20,9 +20,9 @@ The workspace is organized to separate the core mathematical engine, application
 * **`src/`**: The core implementation of the C++ engine. Optimized for CPU cache locality by passing pre-allocated memory buffers by reference.
 * **`scripts/`**: Python scripts utilizing `pandas` and `matplotlib` to parse simulation outputs and generate log-log complexity visualizations.
 * **`Plots/`**: Directory containing the final generated data visualizations (Convergence, Path Coupling, Complexity scaling).
+* **`references/`**: Contains academic and theoretical background materials, including the original 2008 MLMC paper by M.B. Giles and a comprehensive academic report on stochastic calculus and risk modeling.
 * **`CMakeLists.txt`**: The build system configuration file.
-* **`Reference Paper.pdf`**: The original 2008 MLMC paper by M.B. Giles.
-* **`Report of Implementation.pdf`**: A comprehensive technical report detailing the mathematical foundations, software architecture, and empirical findings of this project.
+* **`Report_of_Implementation.pdf`**: A comprehensive technical report detailing the mathematical foundations, software architecture, and empirical findings of this project.
 
 ## Key Features
 1. **Euler-Maruyama Stepper:** A highly flexible, functional SDE solver capable of accepting arbitrary drift and diffusion coefficients.
