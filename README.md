@@ -45,3 +45,11 @@ mkdir -p build
 cd build
 cmake ..
 make
+```
+
+## Academic Context & Acknowledgements
+This repository was engineered as the practical implementation phase of my Summer Research Fellowship Programme (SRFP) at IIT Bombay under Prof. K.S. Mallikarjuna Rao.
+
+For the Code & Benchmarks: Please see Report_of_Implementation.pdf in the root directory. It details the C++ architecture, memory optimization, and complexity scaling of this specific repository.
+
+For the Theoretical Background: Please see references/Intern_Report_MATS354_SRFP.pdf. This is my comprehensive academic report covering the broader quantitative finance theory studied during the fellowship, including Risk Measures, Itô Calculus, and Volatility modeling.
